@@ -135,27 +135,27 @@ comments_provider: giscus
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
-disqus:
-    username: 
+# disqus:
+#     username: 
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: levenwindy
-    repo: blog-comments
-    oauth:
-        client_id: ec9a2fb9ed44aa3217a4
-        client_secret: 5e93e9d6b0ef539086713bc3c8e52ce70a9b7696
+# gitment:
+#     owner: levenwindy
+#     repo: blog-comments
+#     oauth:
+#         client_id: ec9a2fb9ed44aa3217a4
+#         client_secret: 5e93e9d6b0ef539086713bc3c8e52ce70a9b7696
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
     owner: levenwindy
-    repo: blog-comments
+    repo: levenwindy.github.io
     clientID: ec9a2fb9ed44aa3217a4
     clientSecret: 5e93e9d6b0ef539086713bc3c8e52ce70a9b7696
 # utterances 配置参考：https://utteranc.es/
-utterances:
-    repo: levenwindy.github.io
+# utterances:
+#     repo: levenwindy.github.io
 # beaudar 配置参考：https://beaudar.lipk.org/
-beaudar:
-    repo: levenwindy.github.io
+# beaudar:
+#     repo: levenwindy.github.io
 # giscus 配置参考：https://giscus.app/zh-CN
 
 # giscus:
