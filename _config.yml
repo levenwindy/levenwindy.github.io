@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://levenwindy.github.io
 date_format: "ordinal"
 title: 码志
 subtitle: "levenwindy"
@@ -11,7 +11,7 @@ keywords: levenwindy
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2022
+since: 2023
 # 源码仓库，请替换成自己的
 repository: levenwindy/levenwindy.github.io
 # 对 css 和 js 资源的 cdn 加速配置
