@@ -1,7 +1,7 @@
 .home .banner,
 .home .site-header {
     background: #4183c4;
-    color: #fff
+    color: #131111
     /* 网站头
     background: #4183c4; 抬头蓝色
     color: #fff           白色  
@@ -26,7 +26,10 @@
 }
 
 .home .site-header h1 a {
+    color: #131111
+    /* 
     color: #fff
+    */
 }
 
 .home .site-header .site-header-nav-item {
@@ -34,7 +37,10 @@
 }
 
 .home .site-header .site-header-nav-item:hover {
+    color: #131111
+    /* 
     color: #fff
+    */
 }
 
 
