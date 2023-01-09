@@ -4,7 +4,7 @@
 baseurl:
 url: https://levenwindy.github.io
 date_format: "ordinal"
-title: 码志
+title: levenwindy
 subtitle: "levenwindy"
 description: "levenwindy个人博客"
 keywords: levenwindy
@@ -145,11 +145,11 @@ comments_provider: giscus
 #         client_id: ec9a2fb9ed44aa3217a4
 #         client_secret: 5e93e9d6b0ef539086713bc3c8e52ce70a9b7696
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: levenwindy
-    repo: levenwindy.github.io
-    clientID: ec9a2fb9ed44aa3217a4
-    clientSecret: 5e93e9d6b0ef539086713bc3c8e52ce70a9b7696
+# gitalk:
+#     owner: levenwindy
+#     repo: levenwindy.github.io
+#     clientID: ec9a2fb9ed44aa3217a4
+#     clientSecret: 5e93e9d6b0ef539086713bc3c8e52ce70a9b7696
 # utterances 配置参考：https://utteranc.es/
 # utterances:
 #     repo: levenwindy.github.io
@@ -158,11 +158,11 @@ gitalk:
 #     repo: levenwindy.github.io
 # giscus 配置参考：https://giscus.app/zh-CN
 
-# giscus:
-#     repo: levenwindy.github.io
-#     repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
-#     category: Announcements
-#     category-id: DIC_kwDOBY0E7c4CRtg9
+giscus:
+    repo: levenwindy/levenwindy.github.io
+    repo-id: R_kgDOIvjlyQ
+    category: Comments
+    category-id: DIC_kwDOIvjlyc4CTew8
 
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
