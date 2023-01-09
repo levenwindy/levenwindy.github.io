@@ -2,13 +2,23 @@
 .home .site-header {
     background: #4183c4;
     color: #fff
+    /* 网站头
+    background: #4183c4; 抬头蓝色
+    color: #fff           白色  
+    */
 }
 
 .home .banner .collection-head {
-    color: #fff;
+    color: #131111;
     background: 0 0;
     box-shadow: none;
     -webkit-box-shadow: none
+    /* 网站头
+    color: #fff;     #131111 灰色
+    background: 0 0;
+    box-shadow: none;
+    -webkit-box-shadow: none
+    */
 }
 
 .home .site-header {
