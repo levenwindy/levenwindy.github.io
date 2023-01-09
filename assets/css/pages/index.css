@@ -1,15 +1,15 @@
 .home .banner,
 .home .site-header {
     background: #4183c4;
-    color: #131111
-    /* 网站头
+    color: #fff
+    /* 字体
     background: #4183c4; 抬头蓝色
     color: #fff           白色  
     */
 }
 
 .home .banner .collection-head {
-    color: #131111;
+    color: #fff;
     background: 0 0;
     box-shadow: none;
     -webkit-box-shadow: none
@@ -26,7 +26,7 @@
 }
 
 .home .site-header h1 a {
-    color: #131111
+    color: #fff
     /* 
     color: #fff
     */
@@ -37,7 +37,7 @@
 }
 
 .home .site-header .site-header-nav-item:hover {
-    color: #131111
+    color: #fff
     /* 
     color: #fff
     */
