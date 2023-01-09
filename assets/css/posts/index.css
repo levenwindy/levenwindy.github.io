@@ -4,9 +4,11 @@
 
 .post-directory {
     font-size: 14px;
-    background: #131111;
-    /* 
     background: #fff;
+    /* 
+    Table of Contents  文章目录颜色 
+    background: #fff;    # 白色
+    #131111黑色
     */
     overflow: hidden;
     width: 300px;
