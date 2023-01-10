@@ -6,31 +6,9 @@ layout: default
 {% if site.cdn.jsdelivr.enabled %}
 {% assign assets_base_url = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
 {% endif %}
-
-<head>
-<style>
-body {
-    background-color:	#93B874;
-    /*
-    background-color: #93B874;绿色
-    */
-}
-</style>
-</head>
-
 <section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15}}">
     <div class="container">
-<head>
-<style>
-body {
-    background-color: #0d1117;
-    /*
-    background-color: #93B874; 绿色 /链接、关于/背景色  #0d1117 github深色
-    */
-}
-</style>
-</head>      
-<div class="columns">
+      <div class="columns">
         <div class="column two-thirds">
           <div class="collection-title">
             <h1 class="collection-header">{{ page.title }}</h1>
