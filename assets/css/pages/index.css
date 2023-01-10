@@ -1,49 +1,63 @@
+
+    /* 首页上方
+    background: #4183c4; 背景蓝色   #3f7ebb 暗蓝一点
+    color: #fff         字体  白色  
+    */
 .home .banner,
 .home .site-header {
     background: #4183c4;
     color: #fff
-    /* 字体
-    background: #4183c4; 抬头蓝色
-    color: #fff           白色  
-    */
 }
 
+    /* 首页上方 地址/博客名颜色
+    color: #fff;     #131111 灰色
+    */
 .home .banner .collection-head {
     color: #fff;
     background: 0 0;
     box-shadow: none;
     -webkit-box-shadow: none
-    /* 网站头
-    color: #fff;     #131111 灰色
-    background: 0 0;
-    box-shadow: none;
-    -webkit-box-shadow: none
-    */
 }
 
+
+	/*不明
+	color: #ff00ff  新增 */
 .home .site-header {
-    border-bottom: none
+    border-bottom: none;
 }
 
+    /* 首页最上方 博客地址 字体颜色  github墨绿色 #161b22
+    color: #fff
+    */
 .home .site-header h1 a {
-    color: #fff
-    /* 
-    color: #fff
-    */
+    color: #161b22
 }
 
+    /* 新增 首页上方 地址/博客名 悬停颜色 
+    color: #11e1e1;   天蓝
+    */
+.home .site-header h1 a:hover {
+    color: #11e1e1
+}
+
+	/* 首页/分类/维基/链接/关于 #00ffff 天蓝色
+    color: rgba(255, 255, 255, .5)  白色
+    */
 .home .site-header .site-header-nav-item {
-    color: rgba(255, 255, 255, .5)
+    color: #fff
 }
 
-.home .site-header .site-header-nav-item:hover {
-    color: #fff
-    /* 
+    /*悬停 首页/分类/维基/链接/关于 颜色
     color: #fff
     */
+.home .site-header .site-header-nav-item:hover {
+    color: #11e1e1
 }
 
 
+	/* 不明
+    background-color: white;
+    */
 @media (max-width:50em) {
   .home .collapsed .icon-bar {
     background-color: white;
