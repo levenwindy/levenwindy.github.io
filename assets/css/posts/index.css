@@ -85,7 +85,8 @@
 }
 
 	/*
-	color: #666; 灰色	/分类/文章名/ 颜色 #4183c4蓝色 #c9d1d9 白色 github背景深色 #0d1117;
+	color: #666; 灰色	/分类/文章名/ 颜色 #4183c4蓝色 #c9d1d9 白色 
+    background: #0d1117;  github背景深色 #0d1117;
 	*/
 .posts-list-item a {
     font-size: 16px;
@@ -93,9 +94,11 @@
     font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
     line-height: inherit;
     color: #4183c4;
-    background: #0d1117;
 }
 
+.posts-list-item a:hover {
+    font-weight: bold;
+}	
 	/*
 	color: #555; 灰色	/分类/文章/日期名 颜色 #c9d1d9 github白色
     background: #fff;   /分类/文章/日期名 背景色 白色 #0d1117 github色
@@ -105,7 +108,6 @@
     font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
     line-height: 2;
     color: #c9d1d9;
-    background: #0d1117;
 }
 
 .list-group {
@@ -167,10 +169,15 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 1;
-    color: #fff;
+    color: #434343;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: #000;
+    background-color: #e5eecc;
     border-radius: 10px;
+}
+
+.badge:hover {
+	font-weight: bold;
+	transform: scale(1.2);
 }
