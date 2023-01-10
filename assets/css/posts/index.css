@@ -2,19 +2,18 @@
     z-index: 999;
 }
 
+    /* 
+    background: #fff; # 白色  /维基/Table of Contents/  文章目录颜色  #0d1117 github
+	color: #999;   # 灰色    /维基/Table of Contents/目录    github 颜色 #c9d1d9
+    */
 .post-directory {
     font-size: 14px;
-    background: #fff;
-    /* 
-    Table of Contents  文章目录颜色 
-    background: #fff;    # 白色
-    #131111黑色
-    */
+    background: #0d1117;
     overflow: hidden;
     width: 300px;
     padding-bottom: 1em;
     border: 1px solid #efefef;
-    color: #999;
+    color: #c9d1d9;
 }
 
 .post-directory ul,
@@ -28,23 +27,35 @@
     padding: 2px 5px 2px 15px;
 }
 
+	/*
+    color: #bababa;   灰色 /维基/Table of Contents/目录/文章节点 颜色
+	*/
 .post-directory a {
     text-decoration: none;
-    color: #bababa;
+    color: #c9d1d9;
 }
 
+	/*
+    color: #4183c4;   蓝色 /维基/Table of Contents/目录 颜色
+	*/
 .post-directory a:hover,
 .post-directory a:active,
 .post-directory a.on {
     color: #4183c4;
 }
 
+	/*
+    color: #555;   灰色  /分类/文章名前圆点/ 颜色 蓝色#4183c4  
+	*/
 .posts-list {
     line-height: 2;
-    color: #555;
+    color: #26a93c;
     list-style-type:disc;
 }
 
+	/*
+    background: #bbb; 灰色  #FF1493 粉红
+	*/
 .posts-list::before {
 /*    content: " ";*/
     position: absolute;
@@ -53,7 +64,7 @@
     width: 6px;
     height: 6px;
     margin-left: -4px;
-    background: #bbb;
+    background: #FF1493;
     border-radius: 50%;
     border: 1px solid #fff;
     transition-duration: 0.2s;
@@ -68,20 +79,28 @@
     padding: 0;
 }
 
+	/*
+	color: #666; 灰色	/分类/文章名/ 颜色 #4183c4蓝色 #c9d1d9 白色 github背景深色 #0d1117;
+	*/
 .posts-list-item a {
     font-size: 16px;
     font-weight: normal;
     font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
     line-height: inherit;
-    color: #666;
+    color: #4183c4;
+    background: #0d1117;
 }
 
+	/*
+	color: #555; 灰色	/分类/文章/日期名 颜色 #c9d1d9 github白色
+    background: #fff;   /分类/文章/日期名 背景色 白色 #0d1117 github色
+	*/
 .posts-list-meta {
     font-size: 12px;
     font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
     line-height: 2;
-    color: #555;
-    background: #fff;
+    color: #c9d1d9;
+    background: #0d1117;
 }
 
 .list-group {
@@ -89,12 +108,16 @@
     margin-bottom: 20px;
 }
 
+	/*
+    background-color: #fff; 白色  /分类/Blog Categories/分类背景色  #161b22 github偏绿色   #c9d1d9 github色 白色#0d1117;
+    border: 1px solid #ddd;
+	*/
 .list-group-item {
     position: relative;
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
-    background-color: #fff;
+    background-color: #161b22;
     border: 1px solid #ddd;
 }
 
@@ -114,6 +137,10 @@
     float: right;
 }
 
+	/*
+    color: #fff; /分类/Blog Categories/分类/数字  #ffffff
+	background-color: #0d1117; 新增灰色  无反应
+	*/
 .badge {
     display: inline-block;
     min-width: 10px;
@@ -121,7 +148,7 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 1;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
