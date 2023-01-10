@@ -91,12 +91,12 @@
     font-weight: 700
 }
 
-	/*
-	color: #333
+	/* 分类/维基/链接/关于 左上角github
+	color: #333 灰色  #fff 白
 	*/
 .site-header h1 a {
     white-space: nowrap;
-    color: #333
+    color: #fff
 }
 
 .site-header h1 a:hover {
@@ -182,8 +182,8 @@
     margin-left: 20px
 }
 
-	/*左下角 © 2023 xxx  颜色  
-	color: #777; 深灰 #fff白
+	/*左下角 © 本  颜色  
+	color: #777; 深灰 #fff白 #f0f6fc github文字白
 	*/
 .site-footer {
     position: relative;
@@ -192,7 +192,7 @@
     padding-bottom: 40px;
     font-size: 12px;
     line-height: 1.5;
-    color: #fff;
+    color: #f0f6fc;
     border-top: 1px solid #eee
 }
 
@@ -223,7 +223,7 @@
     color: #fff
 }
 
-	/*最下中间 github 悬停背景色
+	/*悬停 最下中间 github仓库 背景色
 	#bbb 灰色 #11e1e1 天蓝
 	*/
 .site-footer .octicon-mark-github:hover {
@@ -248,7 +248,11 @@
     margin: 20px 0
 }
 
+	/*新增
+	color: #c9d1d9; github白
+	*/
 .markdown-body {
+	color: #c9d1d9;
     overflow: hidden
 }
 
@@ -261,7 +265,7 @@
 }
 
 	/*未知
-	inherit;   红
+	color: inherit;   红
 	*/
 .markdown-body a:not([href]) {
     color: inherit;
@@ -269,7 +273,7 @@
 }
 
 	/*未知
-	color: #c00 红色
+	color: #c00 红
 	*/
 .markdown-body .absent {
     color: #c00
@@ -297,12 +301,12 @@
     line-height: 1.4
 }
 
-	/*未知
-	color: #000; 黑色
+	/*标题分类目录 颜色 h3  
+	color: #000; 黑色 #f0f6fc github 白色
 	*/
 .markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link {
     display: none;
-    color: #000;
+    color: #edf3f9;
     vertical-align: middle
 }
 
@@ -359,15 +363,38 @@
     font-size: 1em
 }
 
+	/* /维基/ 分类
+	color: #777;  灰色  #edf3f9 github 白
+	*/
 .markdown-body h6 {
     font-size: 1em;
-    color: #777
+    color: #edf3f9
 }
 
+	/*新增 markdown p颜色
+	color: #d9d9d9; 
+	*/
 .markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul {
-    margin-top: 0;
+    color: #d9d9d9;
+	margin-top: 0;
     margin-bottom: 16px
 }
+
+/*新增
+.markdown-body div ul li a{
+    color: #3c78d8; 蓝色
+}
+*/
+.markdown-body div ul li{
+    color: #fff;
+	font-weight: bold
+}
+
+.markdown-body div ul li a{
+    color: #3c78d8;
+	font-weight: bold
+}
+
 
 	/*
 	background-color: #e7e7e7;
@@ -590,7 +617,7 @@
     margin-bottom: 16px
 }
 
-	/*未知
+	/*markdown语法 背景高亮
 	
 	*/
 .markdown-body .highlight pre,.markdown-body pre {
@@ -598,6 +625,7 @@
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
+    background-color: #010409;
     /* background-color: #f7f7f7; */
     /* border-radius: 3px */
 }

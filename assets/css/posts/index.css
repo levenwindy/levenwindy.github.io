@@ -3,8 +3,8 @@
 }
 
     /* 
-    background: #fff; # 白色  /维基/Table of Contents/  文章目录颜色  #0d1117 github
-	color: #999;   # 灰色    /维基/Table of Contents/目录    github 颜色 #c9d1d9
+    background: #fff; # 白色  /维基/Table of Contents/目录背景颜色  灰#0d1117 github
+	color: #999;   # 灰色    /维基/Table of Contents/目录   白色 #c9d1d9 
     */
 .post-directory {
     font-size: 14px;
@@ -36,16 +36,21 @@
 }
 
 	/*
-    color: #4183c4;   蓝色 /维基/Table of Contents/目录 颜色
+    color: #4183c4;   蓝色 /维基/Table of Contents/目录/ 选中 #26a93c 绿色
+	font-weight: bold; 加粗 新增
+	transform: scale(1.5); 放大1.5
+	transition: all .3s; // 设置加载时间
 	*/
 .post-directory a:hover,
 .post-directory a:active,
 .post-directory a.on {
-    color: #4183c4;
+    color: #26a93c;
+	font-weight: bold;
+	transform: scale(1.5);
 }
 
 	/*
-    color: #555;   灰色  /分类/文章名前圆点/ 颜色 蓝色#4183c4  
+    color: #555;   灰色  /分类/文章名前圆点/ 颜色 绿色#26a93c
 	*/
 .posts-list {
     line-height: 2;
@@ -53,7 +58,7 @@
     list-style-type:disc;
 }
 
-	/*
+	/*未知
     background: #bbb; 灰色  #FF1493 粉红
 	*/
 .posts-list::before {
@@ -64,7 +69,7 @@
     width: 6px;
     height: 6px;
     margin-left: -4px;
-    background: #FF1493;
+    background: #bbb;
     border-radius: 50%;
     border: 1px solid #fff;
     transition-duration: 0.2s;
@@ -110,17 +115,31 @@
 
 	/*
     background-color: #fff; 白色  /分类/Blog Categories/分类背景色  #161b22 github偏绿色   #c9d1d9 github色 白色#0d1117;
-    border: 1px solid #ddd;
+    border: 1px solid #ddd;  灰色 边框
+    color: #c9d1d9; 新增
 	*/
 .list-group-item {
     position: relative;
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
+    color: #c9d1d9;
     background-color: #161b22;
     border: 1px solid #ddd;
 }
 
+	/*新增 /分类/Blog Categories/分类名
+	 #c9d1d9 白色 #26a93c绿色
+	*/
+.list-group-item a {
+    color: #c9d1d9
+}
+
+.list-group-item a:hover {
+    color: #26a93c;
+	font-weight: bold;
+	transform: scale(1.5);
+}
 
 .list-group-item:first-child {
     border-top-left-radius: 4px;
@@ -138,8 +157,8 @@
 }
 
 	/*
-    color: #fff; /分类/Blog Categories/分类/数字  #ffffff
-	background-color: #0d1117; 新增灰色  无反应
+    color: #fff; 白色 /分类/Blog Categories/数字 颜色  #ffffff
+	background-color: #777; 灰色 背景色 
 	*/
 .badge {
     display: inline-block;
@@ -148,10 +167,10 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 1;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: #777;
+    background-color: #000;
     border-radius: 10px;
 }
