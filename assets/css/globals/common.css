@@ -175,14 +175,14 @@
 	#333 灰色 #4183c4 蓝
 	font-weight: bold; 新增
 	transform: scale(1.2); 新增
-	padding: 6px 10px 13px;  宽、长、位置
-    border-bottom: 2px solid #d26911
+	padding: 6px 5px 8px;  宽、长、位置
+    border-bottom: 2px solid #d26911 厚度
 	*/
 .site-header-nav-item.selected {
     color: #4183c4;
 	font-weight: bold;
 	transform: scale(1.2);
-    padding: 8px 2px 1px;
+    padding: 1px 1px 1px;
     border-bottom: 2px solid #26a93c
 }
 
@@ -407,11 +407,11 @@
 	font-weight: bold
 }
 
-.markdown-body div ul li a{
-    color: #3c78d8;
+.article-content div ul li a{
+    color: #2a579f;
 }
 
-.markdown-body div ul li a:hover{
+.article-content div ul li a:hover{
 	font-weight: bold
 }
 	/*
