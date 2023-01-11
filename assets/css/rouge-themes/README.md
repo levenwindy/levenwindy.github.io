@@ -1,7 +1,7 @@
 
-#  本css转自([rouge-themes](https://github.com/mzlogin/rouge-themes)) 
+#  本css转自([rouge-themes](https://github.com/mzlogin/rouge-themes)) ，方便应用和修改，感谢！
 
-适应本博客，已A开头的css比较好
+已A开头的css比较好
 ---
 
 
