@@ -2,8 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-#url: https://levenwindy.github.io
-url: http://192.168.1.42:4000
+url: https://levenwindy.github.io
 date_format: "ordinal"
 title: 博客
 subtitle: "levenwindy"
