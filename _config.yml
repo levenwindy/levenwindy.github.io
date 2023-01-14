@@ -2,9 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://levenwindy.github.io
+#url: https://levenwindy.github.io
+url: http://192.168.1.42:4000
 date_format: "ordinal"
-title: levenwindy
+title: 博客
 subtitle: "levenwindy"
 description: "levenwindy个人博客"
 keywords: levenwindy
@@ -17,14 +18,14 @@ repository: levenwindy/levenwindy.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
-        enabled: false
+        enabled: true
 # 可选组件配置
 components:
     # 分享
     # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
     share:
-        enabled: false
-        hide-platforms: qq,facebook
+        enabled: true
+        hide-platforms: weibo,qq,wechat,douban,qzone,facebook,twitter
     # 不蒜子访问统计
     busuanzi:
         enabled: true
@@ -48,8 +49,8 @@ components:
 compress_html:
   clippings: all
   comments: ["<!--", "-->"]
-# 代码高亮风格，支持的 theme 列表见 https://github.com/levenwindy/rouge-themes
-highlight_theme: github
+# 代码高亮风格，支持的 theme 列表见 https://cdn.jsdelivr.net/gh/levenwindy/levenwindy.github.io@master/assets/css/rouge-themes/
+highlight_theme: Amolokai
 
 # ---------------- #
 #      Author      #
@@ -159,10 +160,10 @@ comments_provider: giscus
 # giscus 配置参考：https://giscus.app/zh-CN
 
 giscus:
-    repo: levenwindy/levenwindy.github.io
-    repo-id: R_kgDOIvjlyQ
-    category: Comments
-    category-id: DIC_kwDOIvjlyc4CTew8
+   repo: levenwindy/levenwindy.github.io
+   repo-id: R_kgDOIvjlyQ
+   category: Comments
+   category-id: DIC_kwDOIvjlyc4CTew8
 
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
