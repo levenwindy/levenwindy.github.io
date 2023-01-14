@@ -14,10 +14,13 @@
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/globals/responsive.css">
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/posts/index.css">
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/vendor/octicons/octicons/octicons.css">
+    
+    {% assign highlight_base_url = 'https://raw.githubusercontent.com/levenwindy/levenwindy.github.io/master/assets/css/rouge-themes' %}
     {% if site.cdn.jsdelivr.enabled %}
-    {% assign highlight_base_url = 'https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@master/dist' %}
+    {% assign highlight_base_url = 'https://cdn.jsdelivr.net/gh/levenwindy/levenwindy.github.io@master/assets/css/rouge-themes' %}
     {% endif %}
-    <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/rouge-themes/Amolokai.css">
+    <link rel="stylesheet" href="{{ highlight_base_url }}/{{ site.highlight_theme}}.css">
+    
     {% if site.components.share.enabled %}
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/vendor/share.js/dist/css/share.min.css">
     {% endif %}
