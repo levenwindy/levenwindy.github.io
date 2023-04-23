@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于 Windows 11 PPPoE 拨号无法正常获取 IPV6 (BUG 已修复)
+title: 关于 Windows 11 PPPoE 拨号无法正常获取 IPV6 的 BUG （已修复)
 categories: [Windows 11, IPV6, PPPoE]
 description: 测试当地宽带运营商 IPV6 MTU 的最佳值
 keywords: Windows 11，PPPoE，拨号，IPV6，BUG
